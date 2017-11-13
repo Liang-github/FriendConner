@@ -13,7 +13,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor colorWithDisplayP3Red:50/255.0 green:50/255.0 blue:50/255.0 alpha:1];
+        self.backgroundColor = [UIColor colorWithRed:50/255.0 green:50/255.0 blue:50/255.0 alpha:1];
         UIImageView *backgroundImageView = [UIImageView new];
         backgroundImageView.image = [UIImage imageNamed:@"pbg.jpg"];
         [self addSubview:backgroundImageView];

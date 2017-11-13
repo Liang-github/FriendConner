@@ -9,5 +9,5 @@
 #ifndef PLRefresh_h
 #define PLRefresh_h
 
-
+#import "UIScrollView+PLRefresh.h"
 #endif /* PLRefresh_h */

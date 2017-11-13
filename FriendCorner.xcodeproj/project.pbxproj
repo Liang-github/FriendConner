@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761E415E1FB91A250049BC43 /* ContainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E415D1FB91A250049BC43 /* ContainView.m */; };
+		761E41611FB91EE10049BC43 /* OperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E41601FB91EE10049BC43 /* OperationView.m */; };
+		761E41641FB924620049BC43 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E41631FB924620049BC43 /* CommentView.m */; };
+		761E41671FB9256E0049BC43 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E41661FB9256E0049BC43 /* CommentCell.m */; };
+		761E416A1FB95F7E0049BC43 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E41691FB95F7E0049BC43 /* BaseNavigationController.m */; };
+		761E416D1FB960600049BC43 /* FriendLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E416C1FB960600049BC43 /* FriendLineController.m */; };
 		7676C37B1FB56DD0008D4F31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7676C37A1FB56DD0008D4F31 /* AppDelegate.m */; };
-		7676C37E1FB56DD0008D4F31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7676C37D1FB56DD0008D4F31 /* ViewController.m */; };
 		7676C3811FB56DD0008D4F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7676C37F1FB56DD0008D4F31 /* Main.storyboard */; };
 		7676C3861FB56DD0008D4F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7676C3841FB56DD0008D4F31 /* LaunchScreen.storyboard */; };
 		7676C3891FB56DD1008D4F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7676C3881FB56DD1008D4F31 /* main.m */; };
@@ -346,11 +351,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		761E415C1FB91A250049BC43 /* ContainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainView.h; sourceTree = "<group>"; };
+		761E415D1FB91A250049BC43 /* ContainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainView.m; sourceTree = "<group>"; };
+		761E415F1FB91EE10049BC43 /* OperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationView.h; sourceTree = "<group>"; };
+		761E41601FB91EE10049BC43 /* OperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationView.m; sourceTree = "<group>"; };
+		761E41621FB924620049BC43 /* CommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		761E41631FB924620049BC43 /* CommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		761E41651FB9256E0049BC43 /* CommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		761E41661FB9256E0049BC43 /* CommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		761E41681FB95F7E0049BC43 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		761E41691FB95F7E0049BC43 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		761E416B1FB960600049BC43 /* FriendLineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendLineController.h; sourceTree = "<group>"; };
+		761E416C1FB960600049BC43 /* FriendLineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendLineController.m; sourceTree = "<group>"; };
 		7676C3761FB56DD0008D4F31 /* FriendCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7676C3791FB56DD0008D4F31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7676C37A1FB56DD0008D4F31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7676C37C1FB56DD0008D4F31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7676C37D1FB56DD0008D4F31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7676C3801FB56DD0008D4F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7676C3851FB56DD0008D4F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7676C3871FB56DD1008D4F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -790,8 +805,6 @@
 			children = (
 				7676C3791FB56DD0008D4F31 /* AppDelegate.h */,
 				7676C37A1FB56DD0008D4F31 /* AppDelegate.m */,
-				7676C37C1FB56DD0008D4F31 /* ViewController.h */,
-				7676C37D1FB56DD0008D4F31 /* ViewController.m */,
 				7676C6C81FB570FF008D4F31 /* Controller */,
 				7676C6C51FB570C6008D4F31 /* View */,
 				7676C6C91FB57109008D4F31 /* Model */,
@@ -2230,6 +2243,10 @@
 		7676C6C81FB570FF008D4F31 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				761E41681FB95F7E0049BC43 /* BaseNavigationController.h */,
+				761E41691FB95F7E0049BC43 /* BaseNavigationController.m */,
+				761E416B1FB960600049BC43 /* FriendLineController.h */,
+				761E416C1FB960600049BC43 /* FriendLineController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2280,6 +2297,8 @@
 		7676C6D61FB57353008D4F31 /* ImageViewContainView */ = {
 			isa = PBXGroup;
 			children = (
+				761E415C1FB91A250049BC43 /* ContainView.h */,
+				761E415D1FB91A250049BC43 /* ContainView.m */,
 			);
 			path = ImageViewContainView;
 			sourceTree = "<group>";
@@ -2287,6 +2306,8 @@
 		7676C6D71FB57362008D4F31 /* OperationView */ = {
 			isa = PBXGroup;
 			children = (
+				761E415F1FB91EE10049BC43 /* OperationView.h */,
+				761E41601FB91EE10049BC43 /* OperationView.m */,
 			);
 			path = OperationView;
 			sourceTree = "<group>";
@@ -2294,6 +2315,10 @@
 		7676C6D81FB57371008D4F31 /* CommentView */ = {
 			isa = PBXGroup;
 			children = (
+				761E41621FB924620049BC43 /* CommentView.h */,
+				761E41631FB924620049BC43 /* CommentView.m */,
+				761E41651FB9256E0049BC43 /* CommentCell.h */,
+				761E41661FB9256E0049BC43 /* CommentCell.m */,
 			);
 			path = CommentView;
 			sourceTree = "<group>";
@@ -2700,7 +2725,6 @@
 				7676C6DD1FB573CE008D4F31 /* FriendLineCell.m in Sources */,
 				7676C6A91FB56E50008D4F31 /* RFTextView.m in Sources */,
 				7676C6A21FB56E50008D4F31 /* FaceSourceManager.m in Sources */,
-				7676C37E1FB56DD0008D4F31 /* ViewController.m in Sources */,
 				7676C6B51FB56E50008D4F31 /* NSMutableAttributedString+MLLabel.m in Sources */,
 				7676C6A61FB56E50008D4F31 /* ChatToolBar.m in Sources */,
 				7676C6A01FB56E50008D4F31 /* FacePageView.m in Sources */,
@@ -2713,6 +2737,7 @@
 				7676C6991FB56E50008D4F31 /* ChatToolBarItem.m in Sources */,
 				7676C6BB1FB56E50008D4F31 /* MLLabelLayoutManager.m in Sources */,
 				7676C6A71FB56E50008D4F31 /* OfficialAccountToolbar.m in Sources */,
+				761E41671FB9256E0049BC43 /* CommentCell.m in Sources */,
 				7676C6BE1FB56E50008D4F31 /* MyCollectionViewCell.m in Sources */,
 				7676C5941FB56E50008D4F31 /* UIDevice+ZJ.m in Sources */,
 				7676C6AC1FB56E50008D4F31 /* MASConstraintMaker.m in Sources */,
@@ -2739,12 +2764,17 @@
 				7676C6D31FB572B9008D4F31 /* DataSourceManager.m in Sources */,
 				7676C6AD1FB56E50008D4F31 /* MASLayoutConstraint.m in Sources */,
 				7676C5961FB56E50008D4F31 /* UIView+ZJ.m in Sources */,
+				761E41641FB924620049BC43 /* CommentView.m in Sources */,
 				7676C5971FB56E50008D4F31 /* ZJDataSaver.m in Sources */,
 				7676C6BA1FB56E50008D4F31 /* NSString+MLExpression.m in Sources */,
 				7676C6AB1FB56E50008D4F31 /* MASConstraint.m in Sources */,
 				7676C5931FB56E50008D4F31 /* UIColor+ZJ.m in Sources */,
 				7676C69F1FB56E50008D4F31 /* FaceButton.m in Sources */,
+				761E416A1FB95F7E0049BC43 /* BaseNavigationController.m in Sources */,
+				761E415E1FB91A250049BC43 /* ContainView.m in Sources */,
 				7676C6C01FB56E50008D4F31 /* ZJImageViewBrowser.m in Sources */,
+				761E416D1FB960600049BC43 /* FriendLineController.m in Sources */,
+				761E41611FB91EE10049BC43 /* OperationView.m in Sources */,
 				7676C6B81FB56E50008D4F31 /* MLTextAttachment.m in Sources */,
 				7676C6E41FB58607008D4F31 /* UIScrollView+PLRefresh.m in Sources */,
 				7676C6AA1FB56E50008D4F31 /* MASCompositeConstraint.m in Sources */,
