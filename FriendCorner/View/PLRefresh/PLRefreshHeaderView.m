@@ -64,4 +64,20 @@
     transform = CGAffineTransformRotate(transform, rotateValue);
     _imageView.transform = transform;
 }
+- (void)setRefreshState:(PLRefreshState)refreshState {
+    [super setRefreshState:refreshState];
+    if (refreshState == PLRefreshStateRefreshing) {
+        if (self.callbackBlock) {
+            self.callbackBlock();
+        }
+        [_imageView.layer addAnimation:_rotateAnimation forKey:@"ZJRefreshHeaderRotateAnimationKey"];
+    }
+    if (refreshState == PLRefreshStateNormal) {
+        [_imageView.layer removeAnimationForKey:@"ZJRefreshHeaderRotateAnimationKey"];
+        [UIView animateWithDuration:0.3 animations:^{
+            _imageView.transform = CGAffineTransformIdentity;
+        }];
+        [self.superview bringSubviewToFront:self];
+    }
+}
 @end
